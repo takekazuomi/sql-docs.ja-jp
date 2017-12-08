@@ -24,7 +24,7 @@ ms.lasthandoff: 12/01/2017
 ---
 # <a name="sql-server-on-linux"></a>SQL Server on Linux
 
-SQL Server 2017 が Linux で実行されます。 ような多くの機能とサービスは、オペレーティング システムに関係なく、同じ SQL Server データベース エンジンを勧めします。
+SQL Server 2017はLinux上で動作します。SQL Server と同じデータベースエンジンで、オペレーティングシステムに関係なく多くの同様の機能とサービスがあります。
 
 ## <a name="install"></a>Install
 
@@ -37,11 +37,11 @@ SQL Server 2017 が Linux で実行されます。 ような多くの機能と�
 - [Azure での SQL VM プロビジョニング](/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine?toc=%2fsql%2flinux%2ftoc.json)
 
 > [!NOTE]
-> Docker 自体は、Linux、Mac、および Windows で Docker イメージを実行できることを意味する、複数のプラットフォームで実行されます。
+> Docker 自体は複数のプラットフォーム上で動作します。つまり、Linux、Mac、Windows上でDockerイメージを実行できます。
 
 ## <a name="connect"></a>Connect
 
-インストール後に、Linux コンピューター上の SQL Server インスタンスに接続します。 ローカルまたはリモートでと、さまざまなツールとドライバーを接続することができます。 クイック スタート チュートリアルが使用する方法をデモンストレーション、 [sqlcmd](sql-server-linux-setup-tools.md)コマンド ライン ツールです。 その他のツールは次のとおりです。
+インストール後、Linuxマシン上のSQL Serverインスタンスに接続します。ローカルまたはリモートで、さまざまなツールやドライバで接続できます。クイックスタートチュートリアルでは、[sqlcmd](sql-server-linux-setup-tools.md)コマンドラインツールの使用方法を示します。その他のツールには、次のものがあります。
 
 | ツール | チュートリアル |
 |-----|-----|
@@ -49,11 +49,11 @@ SQL Server 2017 が Linux で実行されます。 ような多くの機能と�
 | SQL Server Management Studio (SSMS) | [Windows で SSMS を使用して Linux 上の SQL Server に接続するには](sql-server-linux-develop-use-ssms.md) |
 | SQL Server Data Tools (SSDT) | [SQL Server on Linux で SSDT を使用します。](sql-server-linux-develop-use-ssdt.md) |
 
-## <a name="explore"></a>探索
+## <a name="explore"></a>Explore
 
-SQL Server 2017 では、Linux を含む、サポートされているすべてのプラットフォームで同じ基になるデータベース エンジンがあります。 非常に多くの既存の機能と機能は、Linux で同じように動作します。 ドキュメントのこの領域では、Linux の観点からこれらの機能の一部を公開します。 これは、Linux 固有の要件がある領域も呼び出します。
+SQL Server 2017 は、Linuxを含むすべてのサポートされているプラットフォーム上で同じデータベースエンジンを使います。多くの既存の機能や能力はLinux上でも同じように動作します。このドキュメントでは、これらの機能の一部をLinuxの観点から公開しています。また、Linuxに固有の要件を持つ領域も紹介します。
 
-SQL Server を使い慣れている場合は、確認、[リリース ノート](sql-server-linux-release-notes.md)のこのリリースの既知の問題の一般的なガイドラインとします。 見て[SQL Server on Linux の新](sql-server-linux-whats-new.md)だけでなく[新機能の全体的な SQL Server 2017](../sql-server/what-s-new-in-sql-server-2017.md)。
+SQL Serverに精通している場合は、[リリース ノート](sql-server-linux-release-notes.md)でこのリリースの一般的なガイドラインと既知の問題を確認してください。 そして、[SQL Server on Linux の新](sql-server-linux-whats-new.md) や[新機能の全体的な SQL Server 2017](../sql-server/what-s-new-in-sql-server-2017.md) を確認して下さい。
 
 ##  <a name="infotipmediageneralinfotippng-engage-with-the-sql-server-engineering-team"></a>![info_tip](./media/general/info_tip.png) SQL Server エンジニアリング チームと連携する
 
